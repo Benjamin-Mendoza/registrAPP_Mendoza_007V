@@ -74,6 +74,14 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** micolor **/
+	--ion-color-micolor: #0d133f;
+	--ion-color-micolor-rgb: 13,19,63;
+	--ion-color-micolor-contrast: #ffffff;
+	--ion-color-micolor-contrast-rgb: 255,255,255;
+	--ion-color-micolor-shade: #0b1137;
+	--ion-color-micolor-tint: #252b52;
 }
 
 @media (prefers-color-scheme: dark) {

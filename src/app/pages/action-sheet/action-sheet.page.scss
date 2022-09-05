@@ -1,0 +1,31 @@
+ion-toolbar{
+    background-color: var(--ion-color-micolor);
+}
+
+.top-20{
+    margin-top: 20px;
+}
+
+.h1-prop{
+    display: block;
+    font-size: 3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+ion-content {
+    --background: #d6d6d6;
+    --color: #3880ff;
+    --keyboard-offset: 0px;
+    --offset-bottom: 0px;
+    --offset-top: 0px;
+    --padding-bottom: 0px;
+    --padding-end: 0px;
+    --padding-start: 0px;
+    --padding-top: 0px;
+}

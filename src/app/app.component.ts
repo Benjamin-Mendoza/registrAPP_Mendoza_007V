@@ -1,5 +1,11 @@
 import { Component } from '@angular/core';
 
+interface Componente{
+  icon:string;
+  name:string;
+  redirecTo:string;
+}
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -7,4 +13,27 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   constructor() {}
+
+
+  componentes : Componente[] = [
+    {
+      
+      icon: 'qr-code-outline',
+      name: 'Inicio',
+      redirecTo: '/inicio'
+    },
+    {
+
+      icon: 'help-outline',
+      name: '¿Cómo funciona?',
+      redirecTo: '/action-sheet'
+    },
+    
+  ];
+
+  
+  
+
+
+
 }

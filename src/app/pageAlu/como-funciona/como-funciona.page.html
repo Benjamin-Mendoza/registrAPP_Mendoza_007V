@@ -1,9 +1,25 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>comoFunciona</ion-title>
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-back-button 
+        defaultHref="/"
+        text=""
+        color="light"
+        mode="md"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>¿Cómo funciona?</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+  <ion-text color="dark">
+    <p>
+      Para comenzar, deberás escanear el código QR, luego...
+    </p>
+  </ion-text>
+
+  <ion-img [src]="img || '../../../assets/img/duoc.png'"></ion-img>
 
 </ion-content>

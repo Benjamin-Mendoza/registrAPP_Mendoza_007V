@@ -1,14 +1,23 @@
 <ion-header>
-  <ion-toolbar color="micolor">
-    <ion-buttons slot="start">
-      <ion-button (click)="mostrarMenu()" color="dark">
-        <ion-icon slot="icon-only" name="menu-outline"></ion-icon>
-      </ion-button>
-    </ion-buttons>
-   <ion-title color="dark">Inicio</ion-title>
+  <ion-toolbar color="tertiary">
+   <ion-title>Inicio</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+  <ion-img [src]="img || '../../../assets/img/horario.jpg'"></ion-img>
+
+  <ion-button class="top-20" type="submit" color="tertiary" expand="full" mode="md" disabled>
+    Escanear QR
+  </ion-button>
+
+  <ion-button class="top-20" type="submit" color="tertiary" expand="full" mode="md" [routerLink]="['/como-funciona']">
+    ¿Cómo funciona?
+  </ion-button>
+
+  <ion-button class="top-10" type="submit" color="tertiary" expand="full" mode="md" [routerLink]="['/login']">
+    Cerrar sesión
+  </ion-button>
 
 </ion-content>

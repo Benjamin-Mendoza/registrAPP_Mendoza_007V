@@ -1,5 +1,5 @@
 <ion-header no-border>
-  <ion-toolbar color="micolor" mode="md">
+  <ion-toolbar color="tertiary" mode="md">
     <ion-buttons slot="end">
       <ion-button [routerLink]="['/login']">
         <ion-icon name="arrow-back"></ion-icon>
@@ -10,7 +10,7 @@
 </ion-header>
 
 <ion-content>
-  <h1 class="h1-prop" style="color:black">Docente</h1>
+  <h1 class="h1-prop" style="color:darkslategrey">Docente</h1>
   <form #formulario="ngForm" (ngSubmit)="onSubmitTemplate()">
     
     <ion-list>
@@ -34,7 +34,7 @@
       </ion-item>
     </ion-list>
 
-    <ion-button class="top-20" type="submit" color="light" expand="full" mode="md" [disabled]="formulario.invalid" [routerLink]="['/inicio']">
+    <ion-button class="top-20" type="submit" color="tertiary" expand="full" mode="md" [disabled]="formulario.invalid" [routerLink]="['/inicio']">
       Iniciar sesión
     </ion-button>
 

@@ -7,7 +7,7 @@ ion-toolbar{
 }
 
 ion-content {
-    --background: #d6d6d6;
+    --background: #ffffff;
     --color: #3880ff;
     --keyboard-offset: 0px;
     --offset-bottom: 0px;
@@ -16,4 +16,12 @@ ion-content {
     --padding-end: 0px;
     --padding-start: 0px;
     --padding-top: 0px;
+}
+
+.img-logo{
+    max-width: 400px;
+    height: 400px;
+    padding: .5em;
+    height: 30vh;
+    filter: drop-shadow(3px 4px 4px #444);
 }
